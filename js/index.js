@@ -135,7 +135,7 @@ for(var val in general){
  alert("encontrado login ");
  
  vnodeh=val;
-showAndroidToast("1","taxis",vnodeh,"");
+showAndroidToast("1","user",vnodeh,"");
 
 secintervalo();
  //showAndroidToast("3",vnodep,"","");
@@ -159,7 +159,7 @@ setTimeout(cuenta_atras, 3000);
 
 function cuenta_atras(){
  
-window.location="https://noenadies.github.io/taxistasservicio";
+window.location="https://noenadies.github.io/serviciotaxiuserlogeado/";
 //window.location="https://noenadies.github.io/taxistasservicio/";
 
 }
