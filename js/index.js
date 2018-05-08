@@ -162,13 +162,13 @@ setTimeout(cuenta_atras, 3000);
 
 function cuenta_atras(){
  
-//window.location="https://noenadies.github.io/serviciotaxiuserlogeado/";
+window.location="https://noenadies.github.io/serviciotaxiuserlogeado/";
 //window.location="https://noenadies.github.io/taxistasservicio/";
 
 }
 
 function btaccionuser(){
-  showAndroidToast("btaccionuser","","","");
+ // showAndroidToast("btaccionuser","","","");
 }
 
 //window.location="https://www.youtube.com/watch?v=GAOBXGPuKqo";
