@@ -168,7 +168,7 @@ function cuenta_atras(){
 }
 
 function btaccionuser(){
- // showAndroidToast("btaccionuser","","","");
+  showAndroidToast("btaccionuser","","","");
 }
 
 //window.location="https://www.youtube.com/watch?v=GAOBXGPuKqo";
