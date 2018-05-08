@@ -34,7 +34,7 @@ var vced="";
 var vcel="";
 var vnodep="";
  
-  var config = {
+var config = {
     apiKey: "AIzaSyDjLCwvkZjT-Op9nNByGIqq9wGMmm-3dsI",
     authDomain: "usertaxi-d0ca2.firebaseapp.com",
     databaseURL: "https://usertaxi-d0ca2.firebaseio.com",
@@ -43,6 +43,8 @@ var vnodep="";
     messagingSenderId: "505401637317"
   };
   firebase.initializeApp(config);
+
+
 
 
 var general;
@@ -129,6 +131,7 @@ function nodesuperpadre(nd)
 
 var noregistro=true;
 function validadcionuser(cel,ced){
+
 for(var val in general){
 
    if(general[val].cel==cel&&general[val].cedula==ced){
@@ -159,7 +162,7 @@ setTimeout(cuenta_atras, 3000);
 
 function cuenta_atras(){
  
-window.location="https://noenadies.github.io/serviciotaxiuserlogeado/";
+//window.location="https://noenadies.github.io/serviciotaxiuserlogeado/";
 //window.location="https://noenadies.github.io/taxistasservicio/";
 
 }
